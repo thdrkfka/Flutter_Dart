@@ -91,11 +91,8 @@ void main() {
 
   String? nullableString;
 
+  // ?? => null 인 경우 다음과 같은 값을 할당하게 함.
   nullableString ??= '이 변수는 null입니다.';
-
   print(nullableString);
-
-
-
 
 }

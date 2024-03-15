@@ -7,8 +7,9 @@ void main() {
     print('hello $i');
   }
 
-  print('----- for 문 list -----');
   List<String> foods = ['짜장면', '짬뽕', '탕수육', '양장피', '크림새우'];
+
+  print('----- for 문 list -----');
   for (var i = 0; i < foods.length; i++) {
     print('food : ${foods[i]}');
   }
